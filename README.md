@@ -12,7 +12,7 @@ found in characters.c. Clue also contains 6 different items which are of the str
 Both the characters and items are assigned randomly to each room at the start of the game. The values generated in the
 random arrays were used to define each answer arbitrarily at the start of the game. Each room structure contains a 
 linked list of item structures. An iventory variable of the item type was used to represent a linked list of the 
-avatar's inventory. The array locations determined what rooms each avatar was found in.The scanf function was 
+avatar's inventory. The array locations determined what rooms each avatar was found in. The scanf function was 
 utilized to get user input that would control each of the game's commands. The takeITEM, dropITEM, and goDIRECTION 
 commands were implemented by using the linked lists afforded by the structures created for the program. The game automatically 
 ends and displays a message accordingly if the avatar matches the item, character, and room in a single clue

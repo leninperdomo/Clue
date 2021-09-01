@@ -3,6 +3,8 @@ This a text adventure game version of the popular Clue game developed in C.
 
 Video Demonstration URL: https://youtu.be/Ohb1NvnMF5I
 
+The goal of this project was to create a text adventure game for Clue using the C programming language. In the game, players use text commands to control characters, influence the environment, and navigate a virtual world. The game was completed using the constitutional components of dynamic programming, which include dynamic allocation, memory deallocation, and memoization.
+
 This game utilizes 9 rooms which are all of the room structure type defined in rooms.c. the rooms 
 are connected in a 3 x 3 matrix using the connectRooms method in adventure.c. To generate random room numbers and paths,
 some arrays were created and filled with numbers from 1-9, 1-6, and 1-5 using the generateRandomArray, generateRandomItemList, 

@@ -14,7 +14,7 @@ random arrays were used to define each answer arbitrarily at the start of the ga
 linked list of item structures. An iventory variable of the item type was used to represent a linked list of the 
 avatar's inventory. The array locations determined what rooms each avatar was found in. The scanf function was 
 utilized to get user input that would control each of the game's commands. The takeITEM, dropITEM, and goDIRECTION 
-commands were implemented by using the linked lists afforded by the structures created for the program. The game automatically 
+commands were implemented using the linked lists afforded by the structures created for the program. The game automatically 
 ends and displays a message accordingly if the avatar matches the item, character, and room in a single clue
 command. If the player fails to do so after ten tries, the game ends and displays a different message. In order to win, 
 the player must match all the clues with the clue statement printed based on the item and room answer. The clue 
